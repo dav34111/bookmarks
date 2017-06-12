@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/login_back.jpg);
+}
+#login_form{
+	text-align: center;
+	margin: 20px auto;
+	width: 400px;
+	border: 1px solid;
+	border-radius: 15px;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+	padding-bottom: 20px;
+	background-image: url(../images/login_back2.jpg);
+}
+h1{
+	color: green;
+	margin-top: 20px;
+}
+.inp_1{
+	margin-top: 40px;
+	width: 300px;
+	font-size: 30px;
+}
+.inp_2{
+	margin-top: 10px;
+	width: 300px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.inp_1:hover, .inp_2:hover{
+	background: #b8daa4;
+	-webkit-transform: scale(1.05);
+ 	-moz-transform: scale(1.05);
+ 	-o-transform: scale(1.05);
+}
+#remember{
+	color: green;
+	margin-right: 170px;
+	font-size: 20px;
+}
+#submit{
+	width: 100px;
+	font-size: 23px;
+	margin-left: 204px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#submit:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ }
+ .forgot{
+ 	display: block;
+ 	font-size: 20px;
+ 	margin-left: 106px;
+ }
+ .reg{
+ 	display: block;
+ 	font-size: 20px;
+ 	margin-left: 206px;
+ }
+ .forgot:hover, .reg:hover{
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -o-transform: scale(1.2);
+ }
