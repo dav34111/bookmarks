@@ -22,9 +22,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<div id="disp">
 		<?php 
 
-		echo '<pre>'
+		echo '<pre>';
 		print_r($output);
-
+		echo '</pre>';
 		?>
 	</div>
 
