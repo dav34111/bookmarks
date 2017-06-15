@@ -13,13 +13,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div id="login_form">
 			<h1>Welcome to Bookmarks!</h1>
 			<form action="<?=base_url();?>index.php/login/check" method="post">
-				<input type="text" name="login" placeholder="e-mail" class="inp_1"><br>
+				<input type="text" name="login" placeholder="name or e-mail" class="inp_1"><br>
 				<input type="password" name="password" placeholder="password" class="inp_2"><br>
 				<span id="remember">Remember me <input type="checkbox" name="remember"></span><br>
 				<input id="submit" type="submit" value="Login"><br>
 			</form>
-			<span class="forgot"><a href="#">Maybe forgot password?</a></span><br>
-			<span class="reg"><a href="#">Registration</a></span><br>
+			<span class="forgot"><a href="<?=base_url();?>index.php/login/forget">Maybe forgot password?</a></span><br>
+			<span class="reg"><a href="<?=base_url();?>index.php/login/reg">Registration</a></span><br>
 		</div>
 	</div>
 

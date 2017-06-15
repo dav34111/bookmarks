@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../images/home_back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	font-size: 40px;
+	color: green;
+}
+.header{
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.user_name{
+	width: 400px;
+	border:2px solid green;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+	margin: 0 auto;
+	padding: 10px;
+}
+.content{
+	width: 400px;
+	border:2px solid green;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+	margin: 15px auto;
+	padding: 10px;
+}
+
+#add_inp{
+	width: 280px;
+	font-size: 30px;
+}
+#add{
+	width: 70px;
+	font-size: 30px;
+}
+
+table {
+margin: 10px auto;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+}
+th {
+background: #BCEBDD;
+color: green;
+text-shadow: 0 1px 1px #2D2020;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #F8E391;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
