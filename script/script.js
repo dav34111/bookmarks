@@ -15,4 +15,19 @@ $(document).ready(function(){
 		})
 	 })
 
+	$('.remove').click(function(){
+		
+		// var id = $(this).parent().parent().attr('id');
+		var value = $(this).parent().prev().text();
+				
+		$.ajax({
+			url: base_url+'index.php/user/remove_url',
+			type:'post',
+			data:{ value: value },
+			success: function(data){
+				document.location.reload();
+			}
+		})
+	 })
+
 })
